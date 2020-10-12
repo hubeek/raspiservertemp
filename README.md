@@ -9,7 +9,8 @@ checks if servers my are online
 - validates with thermostaat in db => turns on off heater
 
 ## cronjobs
-sudo crontab -e
+sudo crontab -e  
+
 5 * * * * python /home/pi/raspiservertest/servertest.py 
 
 5 * * * * python /home/pi/raspiservertest/temperature.py 
